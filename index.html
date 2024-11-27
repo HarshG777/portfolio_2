@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>WELCOME...!</h1>
+    <nav>
+      <a href="#aboutMe">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+      <button onclick="setMode()" id="mode">Dark</button>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <div class="aboutMe" id="aboutMe">
+
+      <h2 id="sec">About Me</h2>
+      <div id="main">
+  
+        <div id="text">
+
+          <span><b>Hii, I AM HARSH</b></span>
+          <br><br>
+  
+          Being a committed <b>computer engineering student</b>, <br> I have passion for coding and software development, decent at Python, Java, Node.js, Express. React Native, ReactJS, HTML, CSS. I have built cross-platform mobile app, to hotel booking sites, portfolio and <br> Proficient in working leads/teams, great working in cooperative conditions, and incorporates various innovations together without a hitch. I am a lifelong learner, one who strives to always be on the cutting edge of technology to provide tangible value.
+    
+        </div>
+    
+        <div id="myPic">
+          <img src="images/icon.jpeg" alt="">
+        </div>
+    
+  
+      </div>
+      
+    </div>
+
+
+  </main>
+
+  <div class="skills" style="text-align: center;" id="skills">
+    <h2 id="sec">Skills</h2>
+    <div id="lang">
+
+      <h2>Languages</h2>
+
+      <div id="inner">
+
+        <div class="card">
+          <h3>JAVA</h3>
+          <img src="images/java.png" alt="Java IMG">
+        </div>
+    
+        <div class="card">
+          <h3>PYTHON</h3>
+          <img src="images/python.png" alt="PYTHON img">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="webdev">
+
+      <h2>Web Development</h2>
+
+      <div id="inner">
+        <div class="card">
+          <h3>HTML</h3>
+          <img src="images/html.png" alt="">
+        </div>
+    
+        <div class="card">
+          <h3>CSS</h3>
+          <img src="images/css.png" alt="" id="sml">
+        </div>
+    
+        <div class="card">
+          <h3>JAVASCRIPT</h3>
+          <img src="images/js.png" alt="">
+        </div>
+    
+        <div class="card">
+          <h3>EXPRESS JS</h3>
+          <img src="images/express.png" alt="">
+        </div>
+        
+        <div class="card">
+          <h3>REACT JS</h3>
+          <img src="images/react.png" alt="">
+        </div>
+  
+
+      </div>
+
+      
+    </div>
+    
+
+    <div id="mobile">
+
+      <h2>Mobile Application Development</h2>
+
+      <div id="inner">
+
+        <div class="card">
+          <h3>FLUTTER</h3>
+          <img src="images/flutter.png" alt="">
+        </div>
+  
+        <div class="card">
+          <h3>DART</h3>*+0
+          <img src="images/dart.png" alt="" id="sml">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="database">
+
+      <h2>Database</h2>
+
+      <div id="inner">
+
+        <div class="card">
+          <h3>MONGODB</h3>
+          <img src="images/mongo.png" alt="">
+        </div>
+  
+        <div class="card">
+          <h3>MYSQL</h3>
+          <img src="images/mysql.png" alt="" id="sml">
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+    <div class="projects" id="project">
+
+      <h2 id="sec">Projects</h2>
+
+
+      <div class="projectCardCont">
+
+        <div class="projCard">
+
+          <div>
+            <img src="images/project_1.png" alt="project_1">
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>A responsive personal portfolio website developed using HTML, CSS, and JavaScript. It showcases your skills, projects, and achievements with an elegant design and smooth navigation. The site also includes an interactive contact form and demonstrates your expertise in frontend development.</p>
+        </div>
+
+        <div class="projCard">
+
+          <div>
+            <img src="images/project_2.png" alt="project_1">
+          </div>
+          <h3>College Fees App</h3>
+          <p>An iOS application built using Flutter to simplify the college fee management process. The app allows students to view fee details, make payments, access receipts, and check pending dues with an intuitive interface. It showcases your proficiency in cross-platform mobile app development and backend integration.</p>
+        </div>
+
+        <div class="projCard">
+
+          <div>
+            <img src="images/project_3.jpg" alt="project_1">
+          </div>
+          <h3>Hotel Booking Website</h3>
+          <p>A hotel booking platform built with the MERN stack (MongoDB, Express.js, React, Node.js) that provides features like room selection, availability checks, and secure payments. The site delivers a user-friendly experience, emphasizing your full-stack development capabilities and knowledge of modern web technologies.</p>
+        </div>
+
+      </div>      
+      </div>
+
+  <div class="contact" id="contact">
+
+    <h2 id="sec">Contact</h2>
+
+    <div id="contactCont">
+
+      <form action="#">
+        <input type="text" name="name" id="name" placeholder="Enter Name" required>
+        <input type="email" name="email" id="email" placeholder="Enter Email" pattern="/^[a-zA-Z0-9._-]+@[a-zAZ0-9-]+(\.[a-zA-Z0-9]){2,3}$/" required>
+        <textarea name="mess" id="mess" cols="15" role="12" placeholder="Message" required></textarea>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+
+    </div>
+
+  </div>
+  
+
+  </div>
+
+  <footer>
+    <h3>connect with me</h3>
+
+    <div id="handels">
+
+      <a href="https://x.com/i/flow/login?redirect_after_login=%2FHarshGaikwad77" target="_blank">
+        <img src="images/twitter.png" alt="">
+      </a>
+  
+      <a href="https://www.linkedin.com/in/harsh-gaikwad-71b951278/" target="_blank">
+        <img src="images/linkedin.png" alt="">
+      </a>
+  
+      <a href="https://github.com/HarshG777" target="_blank">
+        <img src="images/github.png" alt="">
+      </a>
+
+
+    </div>
+    
+    
+
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
